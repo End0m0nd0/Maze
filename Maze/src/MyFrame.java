@@ -41,7 +41,7 @@ public class MyFrame extends JFrame {
 
 
     public void generateMaze(){
-        List<Block> stack = new ArrayList<>();
+        Deque<Block> stack = new LinkedList<>();
         stack.add(Block.getBlock(0,0));
         while (!stack.isEmpty()){
             Block block = stack.getLast();

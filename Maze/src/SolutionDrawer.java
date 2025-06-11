@@ -55,7 +55,7 @@ public class SolutionDrawer extends JPanel {
         HashMap<ArrayList<Block>,Integer> lengthMap = new HashMap<>();
         for(ArrayList<Block> list : permutationsList){
             list.add(Block.getBlock(MyFrame.getMazeSize()-1,MyFrame.getMazeSize()-1));
-            list.addFirst(Block.getBlock(0,0));
+            list.add(0,Block.getBlock(0,0));
             int length = 0;
             for(int i=0;i<list.size()-1;i++)
                 length+=list.get(i).getPath(list.get(i+1)).size();

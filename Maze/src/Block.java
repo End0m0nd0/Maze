@@ -126,20 +126,12 @@ public class Block extends JPanel {
         if (walls[2]) g2d.drawLine(size, 0, size, size);     // Prawa ściana
         if (walls[3]) g2d.drawLine(0, size, size, size);     // Dolna ściana
 
-        if(isSpecial) {
-
-            g2d.setStroke(new BasicStroke(5));
+        if (isSpecial) {
             g2d.setColor(Color.RED);
-            g.setFont(new Font("Arial", Font.BOLD, 35));
-            String letter = String.valueOf((char)((int)(Math.random()*('z'-'a')+'a')));
-            FontMetrics metrics = g2d.getFontMetrics();
-            int textWidth = metrics.stringWidth(letter);
-            int textHeight = metrics.getHeight();
-
-            int xText = (size - textWidth) / 2;
-            int yText = (size + textHeight) / 2 - metrics.getDescent();
-
-            g2d.drawString(letter, xText, yText);
+            int dotSize = size / 2;
+            int x = (size - dotSize) / 2;
+            int y = (size - dotSize) / 2;
+            g2d.fillOval(x, y, dotSize, dotSize);
         }
     }
 
