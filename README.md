@@ -45,9 +45,9 @@ Aplikacja jest graficznym programem desktopowym napisanym w języku **Java** z w
 ## Zrzuty ekranu
 
 <p align="center">
-  <img src="https://i.imgur.com/c4oGIni.png" alt="Widok 1" style="height: 325px; object-fit: cover; object-position: top; margin: 5px; border: 1px solid #ccc;"/>
-  <img src="https://i.imgur.com/szBK7Yl.png" alt="Widok 2" style="height: 325px; object-fit: cover; object-position: top; margin: 5px; border: 1px solid #ccc;"/>
-  <img src="https://i.imgur.com/gDuCMmc.png" alt="Widok 3" style="height: 325px; object-fit: cover; object-position: top; margin: 5px; border: 1px solid #ccc;"/>
+  <img src="https://i.imgur.com/c4oGIni.png" alt="Widok 1" style="height: 300px; object-fit: cover; object-position: top; margin: 5px; border: 1px solid #ccc;"/>
+  <img src="https://i.imgur.com/szBK7Yl.png" alt="Widok 2" style="height: 300px; object-fit: cover; object-position: top; margin: 5px; border: 1px solid #ccc;"/>
+  <img src="https://i.imgur.com/gDuCMmc.png" alt="Widok 3" style="height: 300px; object-fit: cover; object-position: top; margin: 5px; border: 1px solid #ccc;"/>
 </p>
 
 ## Wymagania
